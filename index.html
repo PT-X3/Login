@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2 class="title">Login</h2>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <label class="file-label">
+          Upload ID.txt
+          <input type="file" id="idFile" accept=".txt" required />
+        </label>
+        <button type="submit">Sign In</button>
+        <p id="status" class="status-message"></p>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
